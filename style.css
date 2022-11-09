@@ -1,7 +1,7 @@
 body { background-color: #223; color: #eef; font-family: sans-serif; }
-a, a:visited { color: #eef; text-decoration: none; f}
+a, a:visited { color: #eef; text-decoration: none; }
 
-svg [fill^="#"] { fill: #223; }
+svg rect ~ [fill^="#"] { fill: #223; }
 svg rect[fill] { fill: #eef; }
 
 
